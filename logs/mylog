@@ -1,0 +1,41 @@
+[INFO] 2022-04-22 15:59:10,416-logging_test.py-4 : this is a info
+[INFO] 2022-04-22 16:05:54,698-logging_test.py-4 : this is a info
+[INFO] 2022-04-22 16:05:58,227-logging_test.py-4 : this is a info
+[WARNING] 2022-04-22 16:06:12,766-logging_test2.py-3 : there is a warning
+[INFO] 2022-04-27 10:36:04,794-logging_test.py-5 : this is a info
+[CRITICAL] 2022-04-27 10:36:04,794-logging_test.py-14 : Traceback (most recent call last):
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test.py", line 9, in <module>
+    a=3/0
+ZeroDivisionError: division by zero
+
+[INFO] 2022-04-27 10:36:39,535-logging_test.py-5 : this is a info
+[WARNING] 2022-04-27 10:36:39,535-logging_test.py-13 : im wrong
+[CRITICAL] 2022-04-27 10:36:39,535-logging_test.py-14 : Traceback (most recent call last):
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test.py", line 9, in <module>
+    a=3/0
+ZeroDivisionError: division by zero
+
+[INFO] 2022-04-27 10:38:15,383-logging_test.py-5 : this is a info
+[WARNING] 2022-04-27 10:38:15,383-logging_test.py-14 : im wrong
+[CRITICAL] 2022-04-27 10:38:15,383-logging_test.py-15 : Traceback (most recent call last):
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test.py", line 10, in <module>
+    item = dic['b']
+KeyError: 'b'
+
+[INFO] 2022-04-27 10:39:39,203-logging_test.py-6 : this is a info
+[WARNING] 2022-04-27 10:39:39,203-logging_test.py-14 : im wrong
+[CRITICAL] 2022-04-27 10:39:39,203-logging_test.py-15 : Traceback (most recent call last):
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test.py", line 10, in <module>
+    np.array({['abcd']})
+TypeError: unhashable type: 'list'
+
+[WARNING] 2022-04-27 10:42:10,919-logging_test2.py-3 : there is a warning
+[INFO] 2022-04-27 10:42:10,973-logging_test.py-7 : this is a info
+[WARNING] 2022-04-27 10:42:10,973-logging_test.py-15 : im wrong
+[CRITICAL] 2022-04-27 10:42:10,973-logging_test.py-16 : Traceback (most recent call last):
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test.py", line 11, in <module>
+    fun()
+  File "/home/gddi/PycharmProjects/Documents/jyz/docker_demo/src/logging_test2.py", line 6, in fun
+    a = 2/0
+ZeroDivisionError: division by zero
+
